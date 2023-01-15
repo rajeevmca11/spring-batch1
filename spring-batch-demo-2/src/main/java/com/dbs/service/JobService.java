@@ -42,7 +42,7 @@ public class JobService {
             System.out.println("Job Execution ID = " + jobExecution.getId());
         }
         catch(Exception ex){
-            System.out.println("Exception while starting job: "+ex);
+            System.out.println("Exception while starting the job: "+ex);
         }
     }
 }
